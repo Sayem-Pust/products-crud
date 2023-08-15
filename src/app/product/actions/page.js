@@ -111,7 +111,7 @@ const ProductCreateEdit = () => {
       <Grid container spacing={3}>
         <Grid item xs={12}>
           <Button
-            onClick={() => router.push("/product/actions")}
+            onClick={() => router.push("/")}
             endIcon={<RedoIcon />}
             variant="contained"
             sx={{
